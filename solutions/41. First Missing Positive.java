@@ -3,26 +3,26 @@ import java.util.Collections;
 class Solution {
     public int firstMissingPositive(int[] nums) {
       Arrays.sort(nums);
-        int x=1;
-        Boolean flag=true;
-        while(flag)
-        {
-            int i=0;
-        for( i=0;i<nums.length;i++)
-        {
-            if(nums[i]==x)
-            {
-                x++;
-                break;
-            }
-        }
-            if(i==nums.length)
-            {
-                flag=false;
-                return x;
-            }
         
+       
+        int x=1;
+        int j=1;
+        for(int i=1;i<nums.length;i++){
+            if(nums[i-1]!=nums[i]){
+                nums[j]=nums[i];
+                j++;
+            }
         }
-        return -1;
+        for(int i=0;i<j;i++){
+            if(nums[i]>0&&nums[i]!=x)
+            {
+                return x;
+            } 
+           if(nums[i]>0&&nums[i]==x){
+               x++;
+           }
+        }
+        return x;
+    
     }
 }
