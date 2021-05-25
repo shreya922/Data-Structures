@@ -2,6 +2,7 @@
 
 | # | Title | Solution | Runtime |
 |---| ----- | -------- | ------- |
+|19|[ Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[Java](./solutions/19.%20Remove%20Nth%20Node%20From%20End%20of%20List.java)|0 ms|
 |34|[ Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|[Java](./solutions/34.%20Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array.java)|1 ms|
 |35|[ Search Insert Position](https://leetcode.com/problems/search-insert-position/)|[Java](./solutions/35.%20Search%20Insert%20Position.java)|0 ms|
 |38|[ Count and Say](https://leetcode.com/problems/count-and-say/)|[Java](./solutions/38.%20Count%20and%20Say.java)|21 ms|
