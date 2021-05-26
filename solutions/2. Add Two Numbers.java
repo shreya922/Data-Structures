@@ -1,39 +1,31 @@
-        ListNode temp2=l2;
-    
-        
-        while(temp1!=null)
-        {
-            first=first*10+temp1.val;
-            temp1=temp1.next;
-        }
-        while(temp2!=null)
-        {
-            second=second*10+temp2.val;
-            temp2=temp2.next;
-        }
-     
-        
-        
-        long result=first+second;
-        long rev=0;
-         System.out.print(result);
-        
-        ListNode temp=new ListNode();
-        ListNode head=temp;
-        //result=result/10;
-        if(result==0)
-        {
-            head.val=0;
-            return head;
-        }
-        while(result!=0)
-        {
-            int j=(int)(result%10);
-            temp.next=new ListNode(j);
-           temp=temp.next;
-            result=result/10;
-        }
-        return head.next;
-        
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode() {}
+ *     ListNode(int val) { this.val = val; }
+ *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ * }
+ */
+class Solution {
+    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+    ListNode dummyHead = new ListNode(0);
+    ListNode p = l1, q = l2, curr = dummyHead;
+    int carry = 0;
+    while (p != null || q != null) {
+        int x = (p != null) ? p.val : 0;
+        int y = (q != null) ? q.val : 0;
+        int sum = carry + x + y;
+        carry = sum / 10;
+        curr.next = new ListNode(sum % 10);
+        curr = curr.next;
+        if (p != null) p = p.next;
+        if (q != null) q = q.next;
     }
+    if (carry > 0) {
+        curr.next = new ListNode(carry);
+    }
+    return dummyHead.next;
+}
 }
