@@ -14,6 +14,7 @@
 |82|[ Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)|[Java](./solutions/82.%20Remove%20Duplicates%20from%20Sorted%20List%20II.java)|0 ms|
 |83|[ Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|[Java](./solutions/83.%20Remove%20Duplicates%20from%20Sorted%20List.java)|0 ms|
 |141|[ Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|[Java](./solutions/141.%20Linked%20List%20Cycle.java)|4 ms|
+|142|[ Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)|[Java](./solutions/142.%20Linked%20List%20Cycle%20II.java)|4 ms|
 |164|[ Maximum Gap](https://leetcode.com/problems/maximum-gap/)|[Java](./solutions/164.%20Maximum%20Gap.java)|1 ms|
 |169|[ Majority Element](https://leetcode.com/problems/majority-element/)|[Java](./solutions/169.%20Majority%20Element.java)|10 ms|
 |206|[ Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[Java](./solutions/206.%20Reverse%20Linked%20List.java)|0 ms|
