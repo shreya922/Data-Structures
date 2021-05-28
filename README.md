@@ -24,6 +24,7 @@
 |287|[ Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)|[Java](./solutions/287.%20Find%20the%20Duplicate%20Number.java)|20 ms|
 |328|[ Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)|[Java](./solutions/328.%20Odd%20Even%20Linked%20List.java)|0 ms|
 |448|[ Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)|[Java](./solutions/448.%20Find%20All%20Numbers%20Disappeared%20in%20an%20Array.java)|19 ms|
+|725|[ Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts/)|[Java](./solutions/725.%20Split%20Linked%20List%20in%20Parts.java)|0 ms|
 |1313|[ Decompress Run-Length Encoded List](https://leetcode.com/problems/decompress-run-length-encoded-list/)|[Java](./solutions/1313.%20Decompress%20Run-Length%20Encoded%20List.java)|1 ms|
 |1431|[ Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/)|[Java](./solutions/1431.%20Kids%20With%20the%20Greatest%20Number%20of%20Candies.java)|1 ms|
 |1480|[ Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)|[Java](./solutions/1480.%20Running%20Sum%20of%201d%20Array.java)|6 ms|
