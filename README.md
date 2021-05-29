@@ -13,6 +13,7 @@
 |61|[ Rotate List](https://leetcode.com/problems/rotate-list/)|[Java](./solutions/61.%20Rotate%20List.java)|166 ms|
 |82|[ Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)|[Java](./solutions/82.%20Remove%20Duplicates%20from%20Sorted%20List%20II.java)|0 ms|
 |83|[ Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|[Java](./solutions/83.%20Remove%20Duplicates%20from%20Sorted%20List.java)|0 ms|
+|86|[ Partition List](https://leetcode.com/problems/partition-list/)|[Java](./solutions/86.%20Partition%20List.java)|0 ms|
 |141|[ Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|[Java](./solutions/141.%20Linked%20List%20Cycle.java)|4 ms|
 |142|[ Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)|[Java](./solutions/142.%20Linked%20List%20Cycle%20II.java)|4 ms|
 |160|[ Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)|[Java](./solutions/160.%20Intersection%20of%20Two%20Linked%20Lists.java)|8 ms|
