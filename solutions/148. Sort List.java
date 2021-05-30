@@ -1,48 +1,49 @@
-/**
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode() {}
- *     ListNode(int val) { this.val = val; }
- *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
- * }
- */
-class Solution {
-    public ListNode sortList(ListNode head) {
-        if(head==null)
-            return head;
-     ListNode i=head,j=head,f=head;
-        int count=0,n=0,x=0;
-        while(f!=null)
+        ListNode right=sortList(mid);
+        return merge(left,right);
+    }
+    
+    ListNode merge(ListNode list1,ListNode list2)
+    {
+        ListNode dummyNode=new ListNode(0);
+        ListNode ptr=dummyNode;
+        while(list1!=null&&list2!=null)
         {
-           n++; 
-            f=f.next;
-        }
-        f=head;
-     while(i!=null)
-     {
-         j=head;f=head;x=0;
-         while(x!=(n-count-1))
-        {
-            f=f.next;
-            x++;
-        }
-         //System.out.println(f.val);
-        while(j!=f)
-        {
-            if(j.val>j.next.val)
+            if(list1.val<list2.val)
             {
-              int temp=j.val;
-                j.val=j.next.val;
-                j.next.val=temp;
-                
+                ptr.next=list1;
+                 list1=list1.next;
+                ptr=ptr.next;
+               
             }
-            j=j.next;
+            else
+            {
+                 ptr.next=list2;
+                   list2=list2.next;
+                ptr=ptr.next;
+             
+            }
         }
-         i=i.next;
-         count++;
-     }
-        return head;
+        if(list2==null&&list1!=null)
+        ptr.next=list1;
+        else if(list1==null&&list2!=null)
+        ptr.next=list2;
+        return dummyNode.next;
+    }
+    ListNode getMid(ListNode head)
+    {
+         ListNode slow = head, fast = head,prevslow=null;
+        while (fast != null && fast.next != null) {
+            prevslow=slow;
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+       ListNode x=slow;
+        if(prevslow==null)
+            return slow;
+        else
+        {
+            prevslow.next=null;
+            return x;
+        }
     }
 }
