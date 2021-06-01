@@ -75,3 +75,4 @@ class Solution {
         int a=0,b=0;
         for( i=0;i<k;i++)
         {
+            try{
