@@ -31,6 +31,7 @@
 |287|[ Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)|[Java](./solutions/287.%20Find%20the%20Duplicate%20Number.java)|20 ms|
 |328|[ Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)|[Java](./solutions/328.%20Odd%20Even%20Linked%20List.java)|0 ms|
 |344|[ Reverse String](https://leetcode.com/problems/reverse-string/)|[Java](./solutions/344.%20Reverse%20String.java)|8 ms|
+|345|[ Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/)|[Java](./solutions/345.%20Reverse%20Vowels%20of%20a%20String.java)|16 ms|
 |445|[ Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/)|[Java](./solutions/445.%20Add%20Two%20Numbers%20II.java)|2 ms|
 |448|[ Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)|[Java](./solutions/448.%20Find%20All%20Numbers%20Disappeared%20in%20an%20Array.java)|19 ms|
 |682|[ Baseball Game](https://leetcode.com/problems/baseball-game/)|[Java](./solutions/682.%20Baseball%20Game.java)|3 ms|
