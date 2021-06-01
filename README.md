@@ -40,6 +40,7 @@
 |1313|[ Decompress Run-Length Encoded List](https://leetcode.com/problems/decompress-run-length-encoded-list/)|[Java](./solutions/1313.%20Decompress%20Run-Length%20Encoded%20List.java)|1 ms|
 |1431|[ Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/)|[Java](./solutions/1431.%20Kids%20With%20the%20Greatest%20Number%20of%20Candies.java)|1 ms|
 |1480|[ Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)|[Java](./solutions/1480.%20Running%20Sum%20of%201d%20Array.java)|6 ms|
+|1544|[ Make The String Great](https://leetcode.com/problems/make-the-string-great/)|[Java](./solutions/1544.%20Make%20The%20String%20Great.java)|11 ms|
 |1598|[ Crawler Log Folder](https://leetcode.com/problems/crawler-log-folder/)|[Java](./solutions/1598.%20Crawler%20Log%20Folder.java)|2 ms|
 |1669|[ Merge In Between Linked Lists](https://leetcode.com/problems/merge-in-between-linked-lists/)|[Java](./solutions/1669.%20Merge%20In%20Between%20Linked%20Lists.java)|10 ms|
 |1721|[ Swapping Nodes in a Linked List](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/)|[Java](./solutions/1721.%20Swapping%20Nodes%20in%20a%20Linked%20List.java)|4 ms|
