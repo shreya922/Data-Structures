@@ -46,6 +46,7 @@
 |876|[ Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|[Java](./solutions/876.%20Middle%20of%20the%20Linked%20List.java)|0 ms|
 |901|[ Online Stock Span](https://leetcode.com/problems/online-stock-span/)|[Java](./solutions/901.%20Online%20Stock%20Span.java)|455 ms|
 |921|[ Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/)|[Java](./solutions/921.%20Minimum%20Add%20to%20Make%20Parentheses%20Valid.java)|4 ms|
+|946|[ Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences/)|[Java](./solutions/946.%20Validate%20Stack%20Sequences.java)|15 ms|
 |1003|[ Check If Word Is Valid After Substitutions](https://leetcode.com/problems/check-if-word-is-valid-after-substitutions/)|[Java](./solutions/1003.%20Check%20If%20Word%20Is%20Valid%20After%20Substitutions.java)|361 ms|
 |1047|[ Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)|[Java](./solutions/1047.%20Remove%20All%20Adjacent%20Duplicates%20In%20String.java)|482 ms|
 |1171|[ Remove Zero Sum Consecutive Nodes from Linked List](https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/)|[Java](./solutions/1171.%20Remove%20Zero%20Sum%20Consecutive%20Nodes%20from%20Linked%20List.java)|1 ms|
