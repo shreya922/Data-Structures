@@ -1,0 +1,39 @@
+                    {
+                        i++;
+                        st.pop();
+                    }
+                }
+                else if(s.charAt(i)==')'&&s.charAt(i+1)==')')
+                {
+                    i=i+2;
+                    if(!st.isEmpty())
+                    st.pop();
+                    else
+                        res=res+1;
+                }
+                else
+                {
+                   res=res+1;
+                    if(st.isEmpty())
+                    {
+                        res=res+1;
+                        i++;
+                    }
+                    else
+                    {
+                        i++;
+                        st.pop();
+                    }
+                }
+            }
+        }
+        int x=0;
+        while(!st.isEmpty())
+        {
+            x=x+1;
+            st.pop();
+        }
+        res=res+2*x;
+        return res;
+    }
+}
