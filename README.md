@@ -42,6 +42,7 @@
 |725|[ Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts/)|[Java](./solutions/725.%20Split%20Linked%20List%20in%20Parts.java)|0 ms|
 |739|[ Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)|[Java](./solutions/739.%20Daily%20Temperatures.java)|35 ms|
 |844|[ Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)|[Java](./solutions/844.%20Backspace%20String%20Compare.java)|2 ms|
+|856|[ Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/)|[Java](./solutions/856.%20Score%20of%20Parentheses.java)|1 ms|
 |876|[ Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|[Java](./solutions/876.%20Middle%20of%20the%20Linked%20List.java)|0 ms|
 |901|[ Online Stock Span](https://leetcode.com/problems/online-stock-span/)|[Java](./solutions/901.%20Online%20Stock%20Span.java)|455 ms|
 |921|[ Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/)|[Java](./solutions/921.%20Minimum%20Add%20to%20Make%20Parentheses%20Valid.java)|4 ms|
