@@ -32,9 +32,7 @@ class Solution {
             {
                x=st.pop()+x; 
             }
-            StringBuilder sb=new StringBuilder(x);
-           // sb=sb.reverse();
-            x=new String(sb.toString());
+           
             st.pop();
             int a=Integer.parseInt(st.pop());
             String temp=x;
