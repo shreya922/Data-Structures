@@ -49,6 +49,7 @@
 |856|[ Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/)|[Java](./solutions/856.%20Score%20of%20Parentheses.java)|1 ms|
 |876|[ Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|[Java](./solutions/876.%20Middle%20of%20the%20Linked%20List.java)|0 ms|
 |901|[ Online Stock Span](https://leetcode.com/problems/online-stock-span/)|[Java](./solutions/901.%20Online%20Stock%20Span.java)|455 ms|
+|907|[ Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/)|[Java](./solutions/907.%20Sum%20of%20Subarray%20Minimums.java)|N/A|
 |921|[ Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/)|[Java](./solutions/921.%20Minimum%20Add%20to%20Make%20Parentheses%20Valid.java)|4 ms|
 |946|[ Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences/)|[Java](./solutions/946.%20Validate%20Stack%20Sequences.java)|15 ms|
 |1003|[ Check If Word Is Valid After Substitutions](https://leetcode.com/problems/check-if-word-is-valid-after-substitutions/)|[Java](./solutions/1003.%20Check%20If%20Word%20Is%20Valid%20After%20Substitutions.java)|361 ms|
