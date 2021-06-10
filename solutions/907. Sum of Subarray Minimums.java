@@ -30,11 +30,11 @@ class Solution {
             st2.push(i);
         }
         int sum=0;
-        int mod=1000000007;
+        int mod= 1000000007;
         for(int i=0;i<arr.length;i++)
         {
-            sum=(sum%mod+(arr[i]*(prev_smaller[i]+1)*(next_smaller[i]+1))%mod)%mod;
-            //sum%=mod;
+            sum+=(arr[i]*(prev_smaller[i]+1)*(next_smaller[i]+1));
+            sum%=mod;
         }
         return sum;
     }
