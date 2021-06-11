@@ -69,4 +69,5 @@
 |1669|[ Merge In Between Linked Lists](https://leetcode.com/problems/merge-in-between-linked-lists/)|[Java](./solutions/1669.%20Merge%20In%20Between%20Linked%20Lists.java)|10 ms|
 |1673|[ Find the Most Competitive Subsequence](https://leetcode.com/problems/find-the-most-competitive-subsequence/)|[Java](./solutions/1673.%20Find%20the%20Most%20Competitive%20Subsequence.java)|72 ms|
 |1721|[ Swapping Nodes in a Linked List](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/)|[Java](./solutions/1721.%20Swapping%20Nodes%20in%20a%20Linked%20List.java)|4 ms|
+|1827|[ Minimum Operations to Make the Array Increasing](https://leetcode.com/problems/minimum-operations-to-make-the-array-increasing/)|[Java](./solutions/1827.%20Minimum%20Operations%20to%20Make%20the%20Array%20Increasing.java)|29 ms|
 |1833|[ Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars/)|[Java](./solutions/1833.%20Maximum%20Ice%20Cream%20Bars.java)|32 ms|
