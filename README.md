@@ -22,6 +22,7 @@
 |143|[ Reorder List](https://leetcode.com/problems/reorder-list/)|[Java](./solutions/143.%20Reorder%20List.java)|2 ms|
 |148|[ Sort List](https://leetcode.com/problems/sort-list/)|[Java](./solutions/148.%20Sort%20List.java)|5 ms|
 |150|[ Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)|[Java](./solutions/150.%20Evaluate%20Reverse%20Polish%20Notation.java)|61 ms|
+|155|[ Min Stack](https://leetcode.com/problems/min-stack/)|[Java](./solutions/155.%20Min%20Stack.java)|2610 ms|
 |160|[ Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)|[Java](./solutions/160.%20Intersection%20of%20Two%20Linked%20Lists.java)|8 ms|
 |164|[ Maximum Gap](https://leetcode.com/problems/maximum-gap/)|[Java](./solutions/164.%20Maximum%20Gap.java)|1 ms|
 |169|[ Majority Element](https://leetcode.com/problems/majority-element/)|[Java](./solutions/169.%20Majority%20Element.java)|10 ms|
