@@ -48,7 +48,7 @@
 |682|[ Baseball Game](https://leetcode.com/problems/baseball-game/)|[Java](./solutions/682.%20Baseball%20Game.java)|3 ms|
 |725|[ Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts/)|[Java](./solutions/725.%20Split%20Linked%20List%20in%20Parts.java)|0 ms|
 |735|[ Asteroid Collision](https://leetcode.com/problems/asteroid-collision/)|[Java](./solutions/735.%20Asteroid%20Collision.java)|4 ms|
-|739|[ Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)|[Java](./solutions/739.%20Daily%20Temperatures.java)|35 ms|
+|739|[ Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)|[Java](./solutions/739.%20Daily%20Temperatures.java)|31 ms|
 |844|[ Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)|[Java](./solutions/844.%20Backspace%20String%20Compare.java)|2 ms|
 |856|[ Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/)|[Java](./solutions/856.%20Score%20of%20Parentheses.java)|1 ms|
 |876|[ Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|[Java](./solutions/876.%20Middle%20of%20the%20Linked%20List.java)|0 ms|
