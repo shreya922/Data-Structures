@@ -13,10 +13,8 @@ class Solution {
         s="";
         while(!st.isEmpty())
         {
-            s=s+st.pop();
+            s=st.pop()+s;
         }
-        StringBuilder sb=new StringBuilder(s);
-        sb=sb.reverse();
-        return sb.toString();
+        return s;
     }
 }
