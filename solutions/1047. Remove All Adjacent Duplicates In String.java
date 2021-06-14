@@ -3,15 +3,11 @@ class Solution {
        Stack<Character> st=new Stack<Character>();
         for(int i=0;i<s.length();i++)
         {
-            if(st.isEmpty())
-                st.push(s.charAt(i));
+            if(!st.isEmpty()&&st.peek()==s.charAt(i))
+                st.pop();
             else
             {
-                char x=st.peek();
-                if(x==s.charAt(i))
-                    st.pop();
-                else
-                    st.push(s.charAt(i));
+                st.push(s.charAt(i));
             }
         }
         s="";
