@@ -6,12 +6,12 @@ class Solution {
       for(int i=0;i<s.length();i++)
       {
           if(s.charAt(i)=='(')
-          {
-              st.push('(');
-              sb.append('(');
-              if(st.size()==1)
+          {
+              if(st.size()==0)
                   pos[i]=true;
-          }
+               st.push('(');
+              sb.append('(');
+          }
           else if(s.charAt(i)==')')
           {
               st.pop();
