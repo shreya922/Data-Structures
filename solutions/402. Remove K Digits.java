@@ -11,9 +11,7 @@ class Solution {
                 st.pop();
                 count++;
             }
-           // if(count<=k)
-            st.push(String.valueOf(num.charAt(i)));
-            
+            st.push(String.valueOf(num.charAt(i)));   
         }
         while(count!=k)
         {
@@ -23,7 +21,6 @@ class Solution {
         String x="";
         while(!st.isEmpty())
         {
-            
             x=st.pop()+x;
         }
        StringBuilder sb=new StringBuilder(x);
@@ -32,3 +29,6 @@ class Solution {
         {
             sb.deleteCharAt(i);
         }
+        return sb.toString();
+    }
+}
