@@ -48,6 +48,7 @@
 |448|[ Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)|[Java](./solutions/448.%20Find%20All%20Numbers%20Disappeared%20in%20an%20Array.java)|19 ms|
 |456|[ 132 Pattern](https://leetcode.com/problems/132-pattern/)|[Java](./solutions/456.%20132%20Pattern.java)|729 ms|
 |496|[ Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)|[Java](./solutions/496.%20Next%20Greater%20Element%20I.java)|3 ms|
+|501|[ Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/)|[Java](./solutions/501.%20Find%20Mode%20in%20Binary%20Search%20Tree.java)|15 ms|
 |503|[ Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/)|[Java](./solutions/503.%20Next%20Greater%20Element%20II.java)|6 ms|
 |682|[ Baseball Game](https://leetcode.com/problems/baseball-game/)|[Java](./solutions/682.%20Baseball%20Game.java)|3 ms|
 |700|[ Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)|[Java](./solutions/700.%20Search%20in%20a%20Binary%20Search%20Tree.java)|0 ms|
