@@ -56,6 +56,7 @@
 |496|[ Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)|[Java](./solutions/496.%20Next%20Greater%20Element%20I.java)|3 ms|
 |501|[ Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/)|[Java](./solutions/501.%20Find%20Mode%20in%20Binary%20Search%20Tree.java)|15 ms|
 |503|[ Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/)|[Java](./solutions/503.%20Next%20Greater%20Element%20II.java)|6 ms|
+|515|[ Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/)|[Java](./solutions/515.%20Find%20Largest%20Value%20in%20Each%20Tree%20Row.java)|3 ms|
 |637|[ Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)|[Java](./solutions/637.%20Average%20of%20Levels%20in%20Binary%20Tree.java)|4 ms|
 |682|[ Baseball Game](https://leetcode.com/problems/baseball-game/)|[Java](./solutions/682.%20Baseball%20Game.java)|3 ms|
 |700|[ Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)|[Java](./solutions/700.%20Search%20in%20a%20Binary%20Search%20Tree.java)|0 ms|
