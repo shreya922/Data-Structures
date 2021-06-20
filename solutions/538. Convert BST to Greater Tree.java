@@ -14,6 +14,7 @@
  * }
  */
 class Solution {
+    //wasted
      int sum=0;
     public TreeNode convertBST(TreeNode root) {
        
