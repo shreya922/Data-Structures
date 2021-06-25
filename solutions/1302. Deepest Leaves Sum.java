@@ -1,3 +1,23 @@
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
+class Solution {
+    public int deepestLeavesSum(TreeNode root) {
+         List<List<Integer>> list=new ArrayList<List<Integer>>();
+        Queue<TreeNode> q=new LinkedList<TreeNode>();
+        List<Integer> lis=new ArrayList<Integer>();
         q.add(root);
         while(!q.isEmpty())
         {
@@ -15,8 +35,3 @@
             lis.add(sum);
             
         }
-        System.out.print(lis);
-        
-        return lis.get(lis.size()-1);
-    }
-}
