@@ -26,6 +26,7 @@
 |107|[ Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)|[Java](./solutions/107.%20Binary%20Tree%20Level%20Order%20Traversal%20II.java)|1 ms|
 |108|[ Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)|[Java](./solutions/108.%20Convert%20Sorted%20Array%20to%20Binary%20Search%20Tree.java)|0 ms|
 |111|[ Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)|[Java](./solutions/111.%20Minimum%20Depth%20of%20Binary%20Tree.java)|4 ms|
+|116|[ Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)|[Java](./solutions/116.%20Populating%20Next%20Right%20Pointers%20in%20Each%20Node.java)|3 ms|
 |141|[ Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|[Java](./solutions/141.%20Linked%20List%20Cycle.java)|4 ms|
 |142|[ Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)|[Java](./solutions/142.%20Linked%20List%20Cycle%20II.java)|4 ms|
 |143|[ Reorder List](https://leetcode.com/problems/reorder-list/)|[Java](./solutions/143.%20Reorder%20List.java)|2 ms|
