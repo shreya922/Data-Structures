@@ -27,6 +27,7 @@
 |108|[ Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)|[Java](./solutions/108.%20Convert%20Sorted%20Array%20to%20Binary%20Search%20Tree.java)|0 ms|
 |111|[ Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)|[Java](./solutions/111.%20Minimum%20Depth%20of%20Binary%20Tree.java)|4 ms|
 |112|[ Path Sum](https://leetcode.com/problems/path-sum/)|[Java](./solutions/112.%20Path%20Sum.java)|0 ms|
+|113|[ Path Sum II](https://leetcode.com/problems/path-sum-ii/)|[Java](./solutions/113.%20Path%20Sum%20II.java)|14 ms|
 |116|[ Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)|[Java](./solutions/116.%20Populating%20Next%20Right%20Pointers%20in%20Each%20Node.java)|3 ms|
 |117|[ Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)|[Java](./solutions/117.%20Populating%20Next%20Right%20Pointers%20in%20Each%20Node%20II.java)|2 ms|
 |129|[ Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/)|[Java](./solutions/129.%20Sum%20Root%20to%20Leaf%20Numbers.java)|10 ms|
