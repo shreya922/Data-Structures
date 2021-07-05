@@ -64,6 +64,7 @@
 |345|[ Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/)|[Java](./solutions/345.%20Reverse%20Vowels%20of%20a%20String.java)|16 ms|
 |394|[ Decode String](https://leetcode.com/problems/decode-string/)|[Java](./solutions/394.%20Decode%20String.java)|5 ms|
 |402|[ Remove K Digits](https://leetcode.com/problems/remove-k-digits/)|[Java](./solutions/402.%20Remove%20K%20Digits.java)|26 ms|
+|404|[ Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/)|[Java](./solutions/404.%20Sum%20of%20Left%20Leaves.java)|0 ms|
 |445|[ Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/)|[Java](./solutions/445.%20Add%20Two%20Numbers%20II.java)|2 ms|
 |448|[ Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)|[Java](./solutions/448.%20Find%20All%20Numbers%20Disappeared%20in%20an%20Array.java)|19 ms|
 |449|[ Serialize and Deserialize BST](https://leetcode.com/problems/serialize-and-deserialize-bst/)|[Java](./solutions/449.%20Serialize%20and%20Deserialize%20BST.java)|30 ms|
