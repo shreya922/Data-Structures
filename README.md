@@ -75,6 +75,7 @@
 |515|[ Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/)|[Java](./solutions/515.%20Find%20Largest%20Value%20in%20Each%20Tree%20Row.java)|3 ms|
 |530|[ Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/)|[Java](./solutions/530.%20Minimum%20Absolute%20Difference%20in%20BST.java)|1 ms|
 |538|[ Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/)|[Java](./solutions/538.%20Convert%20BST%20to%20Greater%20Tree.java)|0 ms|
+|543|[ Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)|[Java](./solutions/543.%20Diameter%20of%20Binary%20Tree.java)|0 ms|
 |637|[ Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)|[Java](./solutions/637.%20Average%20of%20Levels%20in%20Binary%20Tree.java)|4 ms|
 |671|[ Second Minimum Node In a Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/)|[Java](./solutions/671.%20Second%20Minimum%20Node%20In%20a%20Binary%20Tree.java)|0 ms|
 |682|[ Baseball Game](https://leetcode.com/problems/baseball-game/)|[Java](./solutions/682.%20Baseball%20Game.java)|3 ms|
