@@ -100,6 +100,7 @@
 |958|[ Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree/)|[Java](./solutions/958.%20Check%20Completeness%20of%20a%20Binary%20Tree.java)|7 ms|
 |965|[ Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/)|[Java](./solutions/965.%20Univalued%20Binary%20Tree.java)|0 ms|
 |988|[ Smallest String Starting From Leaf](https://leetcode.com/problems/smallest-string-starting-from-leaf/)|[Java](./solutions/988.%20Smallest%20String%20Starting%20From%20Leaf.java)|14 ms|
+|993|[ Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/)|[Java](./solutions/993.%20Cousins%20in%20Binary%20Tree.java)|1 ms|
 |1003|[ Check If Word Is Valid After Substitutions](https://leetcode.com/problems/check-if-word-is-valid-after-substitutions/)|[Java](./solutions/1003.%20Check%20If%20Word%20Is%20Valid%20After%20Substitutions.java)|361 ms|
 |1008|[ Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/)|[Java](./solutions/1008.%20Construct%20Binary%20Search%20Tree%20from%20Preorder%20Traversal.java)|1 ms|
 |1021|[ Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/)|[Java](./solutions/1021.%20Remove%20Outermost%20Parentheses.java)|14 ms|
