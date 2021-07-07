@@ -51,6 +51,7 @@
 |206|[ Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[Java](./solutions/206.%20Reverse%20Linked%20List.java)|0 ms|
 |222|[ Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/)|[Java](./solutions/222.%20Count%20Complete%20Tree%20Nodes.java)|1 ms|
 |225|[ Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)|[Java](./solutions/225.%20Implement%20Stack%20using%20Queues.java)|0 ms|
+|226|[ Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)|[Java](./solutions/226.%20Invert%20Binary%20Tree.java)|0 ms|
 |227|[ Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/)|[Java](./solutions/227.%20Basic%20Calculator%20II.java)|120 ms|
 |230|[ Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)|[Java](./solutions/230.%20Kth%20Smallest%20Element%20in%20a%20BST.java)|1 ms|
 |232|[ Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|[Java](./solutions/232.%20Implement%20Queue%20using%20Stacks.java)|1 ms|
