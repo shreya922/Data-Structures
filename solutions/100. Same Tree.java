@@ -14,22 +14,21 @@
  * }
  */
 class Solution {
-    public boolean isSameTree(TreeNode root, TreeNode roo1) {
-        List<List<Integer>> list1=found(root);
-         List<List<Integer>> list2=found(roo1);
-        System.out.print(list1+" "+list2);
-        return list1.equals(list2);
+    public boolean isSameTree(TreeNode root1, TreeNode root2) {
+        if(root1==null&&root2==null)
+            return true;
+        if(root1==null&&root2!=null)
+            return false;
+         if(root2==null&&root1!=null)
+            return false;
+        if(root1.val!=root2.val)
+            return false;
+        boolean a= isSameTree(root1.left,root2.left);
+         boolean b=  isSameTree(root1.right,root2.right);
+        if(a&&b)
+         return true;
+        else
+            return false;
     }
-    public List<List<Integer>> found (TreeNode root)
-    {
-        List<List<Integer>> list=new ArrayList<List<Integer>>();
-        Queue<TreeNode> q=new LinkedList<TreeNode>();
-        List<Integer> lis=new ArrayList<Integer>();
-        q.add(root);
-        while(!q.isEmpty())
-        {
-            lis=new ArrayList<Integer>();
-            int x=q.size();
-            for(int i=0;i<x;i++)
-            {
-            TreeNode temp=q.remove();
+   
+}
