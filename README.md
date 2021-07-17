@@ -83,6 +83,7 @@
 |538|[ Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/)|[Java](./solutions/538.%20Convert%20BST%20to%20Greater%20Tree.java)|0 ms|
 |543|[ Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)|[Java](./solutions/543.%20Diameter%20of%20Binary%20Tree.java)|0 ms|
 |563|[ Binary Tree Tilt](https://leetcode.com/problems/binary-tree-tilt/)|[Java](./solutions/563.%20Binary%20Tree%20Tilt.java)|19 ms|
+|623|[ Add One Row to Tree](https://leetcode.com/problems/add-one-row-to-tree/)|[Java](./solutions/623.%20Add%20One%20Row%20to%20Tree.java)|0 ms|
 |637|[ Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)|[Java](./solutions/637.%20Average%20of%20Levels%20in%20Binary%20Tree.java)|4 ms|
 |654|[ Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/)|[Java](./solutions/654.%20Maximum%20Binary%20Tree.java)|4 ms|
 |671|[ Second Minimum Node In a Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/)|[Java](./solutions/671.%20Second%20Minimum%20Node%20In%20a%20Binary%20Tree.java)|0 ms|
