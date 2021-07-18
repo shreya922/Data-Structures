@@ -52,3 +52,9 @@ class Solution {
            if(root.right.left!=null&&!list.contains(root.right.left.val))
                ans.add(root.right.left);  
                   if(root.right.right!=null&&!list.contains(root.right.right.val))
+               ans.add(root.right.right);
+                root.right=null;
+        }
+     
+    }
+}
