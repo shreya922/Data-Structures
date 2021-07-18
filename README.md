@@ -86,6 +86,7 @@
 |623|[ Add One Row to Tree](https://leetcode.com/problems/add-one-row-to-tree/)|[Java](./solutions/623.%20Add%20One%20Row%20to%20Tree.java)|0 ms|
 |637|[ Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)|[Java](./solutions/637.%20Average%20of%20Levels%20in%20Binary%20Tree.java)|4 ms|
 |654|[ Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/)|[Java](./solutions/654.%20Maximum%20Binary%20Tree.java)|4 ms|
+|662|[ Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/)|[Java](./solutions/662.%20Maximum%20Width%20of%20Binary%20Tree.java)|2 ms|
 |671|[ Second Minimum Node In a Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/)|[Java](./solutions/671.%20Second%20Minimum%20Node%20In%20a%20Binary%20Tree.java)|0 ms|
 |682|[ Baseball Game](https://leetcode.com/problems/baseball-game/)|[Java](./solutions/682.%20Baseball%20Game.java)|3 ms|
 |700|[ Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)|[Java](./solutions/700.%20Search%20in%20a%20Binary%20Search%20Tree.java)|0 ms|
