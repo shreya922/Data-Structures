@@ -33,3 +33,24 @@ class Solution {
              if(i==0)
               start= map.get(temp);
              if(i==(x-1))
+              end=map.get(temp);
+            if(temp.left!=null)
+            {
+            q.add(temp.left);
+                map.put(temp.left,2*map.get(temp));
+            }
+             if(temp.right!=null)
+             {
+            q.add(temp.right);
+                 map.put(temp.right,2*map.get(temp)+1);
+             }
+            }
+            curr=end-start+1;
+            if(curr>max)
+            max=curr;
+        }
+        List<Integer> list=new ArrayList<Integer>(map.values());
+     System.out.print(list);
+        return max;
+    }
+}
