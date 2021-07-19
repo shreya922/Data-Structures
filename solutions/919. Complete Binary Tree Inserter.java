@@ -51,7 +51,7 @@ TreeNode head=null;
                 }
             }
         }
-        return root;
+        return root; //no use it will return before head from temp;
         
     }
     public TreeNode get_root() {
@@ -62,3 +62,6 @@ TreeNode head=null;
 /**
  * Your CBTInserter object will be instantiated and called as such:
  * CBTInserter obj = new CBTInserter(root);
+ * int param_1 = obj.insert(v);
+ * TreeNode param_2 = obj.get_root();
+ */
