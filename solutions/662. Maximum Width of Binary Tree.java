@@ -13,6 +13,7 @@
  *     }
  * }
  */
+//new concept: In a complete binary tree and node has a label 'l' then its left child will have label=2*l and right child have label=2*l+1
 class Solution {
     public int widthOfBinaryTree(TreeNode root) {
         int max=0;
