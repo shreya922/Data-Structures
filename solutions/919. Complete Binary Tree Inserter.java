@@ -51,7 +51,7 @@ TreeNode head=null;
                 }
             }
         }
-        return root; //no use it will return before head from temp;
+        return null; //no use it will return before head from temp;
         
     }
     public TreeNode get_root() {
