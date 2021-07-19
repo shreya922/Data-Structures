@@ -106,6 +106,7 @@
 |897|[ Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/)|[Java](./solutions/897.%20Increasing%20Order%20Search%20Tree.java)|1 ms|
 |901|[ Online Stock Span](https://leetcode.com/problems/online-stock-span/)|[Java](./solutions/901.%20Online%20Stock%20Span.java)|455 ms|
 |907|[ Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/)|[Java](./solutions/907.%20Sum%20of%20Subarray%20Minimums.java)|75 ms|
+|919|[ Complete Binary Tree Inserter](https://leetcode.com/problems/complete-binary-tree-inserter/)|[Java](./solutions/919.%20Complete%20Binary%20Tree%20Inserter.java)|44 ms|
 |921|[ Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/)|[Java](./solutions/921.%20Minimum%20Add%20to%20Make%20Parentheses%20Valid.java)|4 ms|
 |946|[ Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences/)|[Java](./solutions/946.%20Validate%20Stack%20Sequences.java)|15 ms|
 |958|[ Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree/)|[Java](./solutions/958.%20Check%20Completeness%20of%20a%20Binary%20Tree.java)|7 ms|
