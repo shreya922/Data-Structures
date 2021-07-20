@@ -11,6 +11,6 @@ class Solution {
         int left = dfs(node.left);
         int right = dfs(node.right);
         ans=ans+ Math.abs(left) + Math.abs(right); //kitne milenge ya chahiye left and right subtrees se
-        return node.val + left + right - 1;   //kitne excess h ya chahiye
+        return node.val + left + right - 1;   //kitne excess h ya chahiye(after movement from left and right subtree)
     }
 }
