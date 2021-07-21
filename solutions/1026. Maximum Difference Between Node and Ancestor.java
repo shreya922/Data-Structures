@@ -28,21 +28,11 @@ class Solution {
     {
         if(root==null)
             return;
-       wrapper(root.left,rootvalue);
-        if(root.left!=null)
-        {
-              currdiff=Math.abs(rootvalue-root.left.val); 
+       currdiff=Math.abs(rootvalue-root.val); 
               if(currdiff>maxdiff)
             maxdiff=currdiff;
-        }
-      
+       wrapper(root.left,rootvalue);
           wrapper(root.right,rootvalue);
-         if(root.right!=null)
-         {
-            currdiff=Math.abs(rootvalue-root.right.val);
-             if(currdiff>maxdiff)
-            maxdiff=currdiff;
-         }
         
     }
 }
