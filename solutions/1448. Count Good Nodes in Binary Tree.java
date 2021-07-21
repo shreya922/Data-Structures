@@ -13,6 +13,7 @@
  *     }
  * }
  */
+//yha hum max koglobal nhi le sakte or function me hi pass karenge becoz max depend karega according to path and will change with very recursive calls depending upon that max value in that path so we pas a s a argument in function
 class Solution {
     int total=0;
     public int goodNodes(TreeNode root) {
