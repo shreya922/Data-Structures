@@ -15,48 +15,29 @@
  */
 class Solution {
     public TreeNode insertIntoMaxTree(TreeNode root, int val) {
-          List<Integer> list=new ArrayList<Integer>();
-    list= inorder(root,list);
-        int[] arr=new int[list.size()+1];
-        int i=0;
-        for(i=0;i<list.size();i++)
-        {
-            arr[i]=list.get(i);
-        }
-        arr[i]=val;
-     return wrapper(arr,0,arr.length-1);
-    }
-    public TreeNode wrapper(int[] nums,int start,int end)
-    {
-        int j=0;
-        if(start>end)
+        if(root==null)
             return null;
-        int max=-1;
-        for(int i=start;i<=end;i++)
+          TreeNode node=new TreeNode(val);
+        if(root.val<val)
         {
-            if(nums[i]>max)
-            {
-                max=nums[i];
-                j=i;
-            }
+            node.left=root;
+            return node;
         }
-        TreeNode root=new TreeNode(max);
-        root.left=wrapper(nums,start,j-1);
-        root.right=wrapper(nums,j+1,end);
-        return root;
-    }
-​
-    List<Integer> inorder(TreeNode root,List<Integer> list)
-    {
-         
-        if(root!=null)
+        TreeNode current=root;
+        while(current.right!=null&&current.right.val>val)
         {
-          inorder(root.left,list);
-            list.add(root.val);
-            inorder(root.right,list);
+            current=current.right;
         }
-         return list;
-    }
-   
-  
+        if(current.right==null)
+        {
+            current.right=node;
+            return root;
+        }
+        else
+        {
+            node.left=current.right;
+            current.right=node;
+            return root;
+         }
+}
 }
