@@ -109,6 +109,7 @@
 |907|[ Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/)|[Java](./solutions/907.%20Sum%20of%20Subarray%20Minimums.java)|75 ms|
 |919|[ Complete Binary Tree Inserter](https://leetcode.com/problems/complete-binary-tree-inserter/)|[Java](./solutions/919.%20Complete%20Binary%20Tree%20Inserter.java)|44 ms|
 |921|[ Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/)|[Java](./solutions/921.%20Minimum%20Add%20to%20Make%20Parentheses%20Valid.java)|4 ms|
+|938|[ Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)|[Java](./solutions/938.%20Range%20Sum%20of%20BST.java)|1 ms|
 |946|[ Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences/)|[Java](./solutions/946.%20Validate%20Stack%20Sequences.java)|15 ms|
 |958|[ Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree/)|[Java](./solutions/958.%20Check%20Completeness%20of%20a%20Binary%20Tree.java)|7 ms|
 |965|[ Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/)|[Java](./solutions/965.%20Univalued%20Binary%20Tree.java)|0 ms|
