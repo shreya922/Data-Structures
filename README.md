@@ -119,7 +119,7 @@
 |1003|[ Check If Word Is Valid After Substitutions](https://leetcode.com/problems/check-if-word-is-valid-after-substitutions/)|[Java](./solutions/1003.%20Check%20If%20Word%20Is%20Valid%20After%20Substitutions.java)|361 ms|
 |1008|[ Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/)|[Java](./solutions/1008.%20Construct%20Binary%20Search%20Tree%20from%20Preorder%20Traversal.java)|1 ms|
 |1021|[ Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/)|[Java](./solutions/1021.%20Remove%20Outermost%20Parentheses.java)|14 ms|
-|1026|[ Maximum Difference Between Node and Ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/)|[Java](./solutions/1026.%20Maximum%20Difference%20Between%20Node%20and%20Ancestor.java)|209 ms|
+|1026|[ Maximum Difference Between Node and Ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/)|[Java](./solutions/1026.%20Maximum%20Difference%20Between%20Node%20and%20Ancestor.java)|180 ms|
 |1047|[ Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)|[Java](./solutions/1047.%20Remove%20All%20Adjacent%20Duplicates%20In%20String.java)|134 ms|
 |1081|[ Smallest Subsequence of Distinct Characters](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/)|[Java](./solutions/1081.%20Smallest%20Subsequence%20of%20Distinct%20Characters.java)|11 ms|
 |1104|[ Path In Zigzag Labelled Binary Tree](https://leetcode.com/problems/path-in-zigzag-labelled-binary-tree/)|[Java](./solutions/1104.%20Path%20In%20Zigzag%20Labelled%20Binary%20Tree.java)|0 ms|
