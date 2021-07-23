@@ -23,12 +23,7 @@ class Solution {
             return false;
         if(root1.val!=root2.val)
             return false;
-        boolean a= isSameTree(root1.left,root2.left);
-         boolean b=  isSameTree(root1.right,root2.right);
-        if(a&&b)
-         return true;
-        else
-            return false;
+     return isSameTree(root1.left,root2.left)&& isSameTree(root1.right,root2.right);
     }
    
 }
