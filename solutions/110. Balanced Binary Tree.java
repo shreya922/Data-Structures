@@ -17,9 +17,7 @@ class Solution {
     public boolean isBalanced(TreeNode root) {
         if(root==null)
             return true;
-        int ldepth=maxdepth(root.left);
-        int rdepth=maxdepth(root.right);
-        if(Math.abs(ldepth-rdepth)>1)
+        if(Math.abs(maxdepth(root.left)-maxdepth(root.right))>1)
             return false;
         return isBalanced(root.left)&&isBalanced(root.right);
     }
