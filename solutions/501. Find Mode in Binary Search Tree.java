@@ -14,48 +14,39 @@
  * }
  */
 class Solution {
+      HashMap<Integer,Integer> map=new HashMap<Integer,Integer>();
     public int[] findMode(TreeNode root) {
-        HashMap<Integer,Integer> map=new HashMap<Integer,Integer>();
-        map=inorder(root,map);
-        int max=0,k=0,freq=0,ele=0;
-        for(Integer i:map.keySet())
+      int[] arr=new int[1000];
+        int k=0;
+        inorder(root);
+       List<Integer> list=new ArrayList<Integer>(map.values());
+        int max=0;
+        for(int i=0;i<list.size();i++)
         {
-            freq=map.get(i);
-            if(freq>max)
-            {
-                max=freq;
-                freq=map.get(i);
-                ele=i;
-            }
+           max=Math.max(max,list.get(i));
         }
-        System.out.print(map);
-        System.out.print(max+" "+ele);
-        ArrayList<Integer> arr1=new ArrayList<Integer>();
-        for(Integer i:map.keySet())
+        Set<Integer> set=map.keySet();
+        for(int temp:set)
         {
-            if(map.get(i)==max)
-            {
-                arr1.add(i);
-            }
+            if(map.get(temp)==max)
+                arr[k++]=temp;
         }
-        int[] arr=new int[arr1.size()];
-        k=0;
-        for(int i=0;i<arr1.size();i++)
-        {
-            arr[k++]=arr1.get(i);
-        }
-        return arr;
+        int[] arr1=new int[k];
+        for(int i=0;i<k;i++)
+            arr1[i]=arr[i];
+        return arr1;
     }
-    public HashMap<Integer,Integer> inorder(TreeNode root,HashMap<Integer,Integer> map)
+    public void inorder(TreeNode root)
     {
-        if(root!=null)
-        {
-            inorder(root.left,map);
-            if(map.containsKey(root.val))
+        if(root==null)
+            return;
+          if(map.containsKey(root.val))
                 map.put(root.val,map.get(root.val)+1);
             else
             {
                 map.put(root.val,1);
             }
-            inorder(root.right,map);
-        }
+            inorder(root.left);
+            inorder(root.right);
+    }
+}
