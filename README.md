@@ -152,6 +152,7 @@
 |1480|[ Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)|[Java](./solutions/1480.%20Running%20Sum%20of%201d%20Array.java)|6 ms|
 |1541|[ Minimum Insertions to Balance a Parentheses String](https://leetcode.com/problems/minimum-insertions-to-balance-a-parentheses-string/)|[Java](./solutions/1541.%20Minimum%20Insertions%20to%20Balance%20a%20Parentheses%20String.java)|21 ms|
 |1544|[ Make The String Great](https://leetcode.com/problems/make-the-string-great/)|[Java](./solutions/1544.%20Make%20The%20String%20Great.java)|11 ms|
+|1557|[ Minimum Number of Vertices to Reach All Nodes](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/)|[Java](./solutions/1557.%20Minimum%20Number%20of%20Vertices%20to%20Reach%20All%20Nodes.java)|8 ms|
 |1598|[ Crawler Log Folder](https://leetcode.com/problems/crawler-log-folder/)|[Java](./solutions/1598.%20Crawler%20Log%20Folder.java)|2 ms|
 |1609|[ Even Odd Tree](https://leetcode.com/problems/even-odd-tree/)|[Java](./solutions/1609.%20Even%20Odd%20Tree.java)|48 ms|
 |1669|[ Merge In Between Linked Lists](https://leetcode.com/problems/merge-in-between-linked-lists/)|[Java](./solutions/1669.%20Merge%20In%20Between%20Linked%20Lists.java)|10 ms|
