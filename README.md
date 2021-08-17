@@ -102,6 +102,7 @@
 |725|[ Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts/)|[Java](./solutions/725.%20Split%20Linked%20List%20in%20Parts.java)|0 ms|
 |735|[ Asteroid Collision](https://leetcode.com/problems/asteroid-collision/)|[Java](./solutions/735.%20Asteroid%20Collision.java)|4 ms|
 |739|[ Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)|[Java](./solutions/739.%20Daily%20Temperatures.java)|31 ms|
+|743|[ Network Delay Time](https://leetcode.com/problems/network-delay-time/)|[Java](./solutions/743.%20Network%20Delay%20Time.java)|24 ms|
 |783|[ Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/)|[Java](./solutions/783.%20Minimum%20Distance%20Between%20BST%20Nodes.java)|0 ms|
 |785|[ Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/)|[Java](./solutions/785.%20Is%20Graph%20Bipartite%3F.java)|13 ms|
 |802|[ Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/)|[Java](./solutions/802.%20Find%20Eventual%20Safe%20States.java)|49 ms|
