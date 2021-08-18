@@ -170,3 +170,4 @@
 |1793|[ Maximum Score of a Good Subarray](https://leetcode.com/problems/maximum-score-of-a-good-subarray/)|[Java](./solutions/1793.%20Maximum%20Score%20of%20a%20Good%20Subarray.java)|151 ms|
 |1827|[ Minimum Operations to Make the Array Increasing](https://leetcode.com/problems/minimum-operations-to-make-the-array-increasing/)|[Java](./solutions/1827.%20Minimum%20Operations%20to%20Make%20the%20Array%20Increasing.java)|29 ms|
 |1833|[ Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars/)|[Java](./solutions/1833.%20Maximum%20Ice%20Cream%20Bars.java)|32 ms|
+|1971|[ Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph/)|[Java](./solutions/1971.%20Find%20if%20Path%20Exists%20in%20Graph.java)|176 ms|
