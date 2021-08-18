@@ -23,7 +23,7 @@ class Solution {
        Arrays.fill(dist,Integer.MAX_VALUE);
         dist[start]=0;
         PriorityQueue<int[]> q=new PriorityQueue<>((edge1,edge2)->{
-            return edge1[1]-edge2[1];
+            return edge1[1]-edge2[1]>0?1:-1;
         });
 ​
         q.add(new int[]{start,0});
@@ -38,37 +38,4 @@ class Solution {
                 int cost=neib[1];
                 int totalcost=dist[src]+cost;
                 if(dist[dest]>totalcost)
-                {
-                   dist[dest]=totalcost; 
-                    q.add(new int[]{dest,cost});
-                }
-             }
-       
-            
-       }
-             int size=0;
-            for(int i=0;i<n;i++)
-            {
-            if(dist[i]<=distanceThreshold)
-                size++;
-                }
-            return size;
-        
-    }
-    public Map<Integer,List<int[]>> buildGraph(Map<Integer,List<int[]>>  map,int[][] edges,int n)
-    {
-        for(int i=0;i<n;i++)
-        {
-            map.put(i,new ArrayList<>());
-        }
-        for(int[] edge:edges)
-        {
-            int src=edge[0];
-            int dest=edge[1];
-            int cost=edge[2];
-            map.get(src).add(new int[]{dest,cost});
-             map.get(dest).add(new int[]{src,cost});
-       }
-        return map;
-    }
-}
+                {
