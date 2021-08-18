@@ -22,8 +22,8 @@ class Solution {
         int[] dist=new int[n];
        Arrays.fill(dist,Integer.MAX_VALUE);
         dist[start]=0;
-        PriorityQueue<int[]> q=new PriorityQueue<>((edge1,edge2)->{
-            return edge1[1]>edge2[1]?1:-1;
+        PriorityQueue<int[]> q=new PriorityQueue<int[]>((edge1,edge2)->{
+            return Integer.compare(edge1[1],edge2[1]);//edge1[1]-edge2[1]>0?1:-1;   --min priority queue
         });
 ​
         q.add(new int[]{start,0});
@@ -44,17 +44,3 @@ class Solution {
                 }
              }
        
-            
-       }
-             int size=0;
-            for(int i=0;i<n;i++)
-            {
-            if(dist[i]<=distanceThreshold)
-                size++;
-                }
-            return size;
-        
-    }
-    public Map<Integer,List<int[]>> buildGraph(Map<Integer,List<int[]>>  map,int[][] edges,int n)
-    {
-        for(int i=0;i<n;i++)
