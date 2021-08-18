@@ -12,7 +12,8 @@ class Solution {
         Arrays.fill(dist,0);
         dist[start]=1;
         PriorityQueue<double[]> q=new PriorityQueue<double[]>((edge1,edge2)->{
-            return edge1[1]<edge2[1]?1:-1;
+             return -1*Double.compare(edge1[1],edge2[1]);
+            //return edge1[1]<edge2[1]?1:-1;//max perority queue
         });
         q.add(new double[]{start,1.0});
         while(!q.isEmpty())
@@ -28,3 +29,13 @@ class Solution {
                 if(totalcost>dist[dest])
                 {
                     dist[dest]=totalcost;
+                    q.add(new double[]{dest,cost});
+                }
+            }
+        }
+       
+        return dist[end];
+    }
+    public Map<Integer,List<double[]>> build(Map<Integer,List<double[]>> graph,int n,int[][] edges,double[] succProb)
+    {
+        int k=0;
