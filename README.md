@@ -126,6 +126,7 @@
 |965|[ Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/)|[Java](./solutions/965.%20Univalued%20Binary%20Tree.java)|0 ms|
 |979|[ Distribute Coins in Binary Tree](https://leetcode.com/problems/distribute-coins-in-binary-tree/)|[Java](./solutions/979.%20Distribute%20Coins%20in%20Binary%20Tree.java)|0 ms|
 |988|[ Smallest String Starting From Leaf](https://leetcode.com/problems/smallest-string-starting-from-leaf/)|[Java](./solutions/988.%20Smallest%20String%20Starting%20From%20Leaf.java)|14 ms|
+|989|[ Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/)|[Java](./solutions/989.%20Add%20to%20Array-Form%20of%20Integer.java)|8 ms|
 |993|[ Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/)|[Java](./solutions/993.%20Cousins%20in%20Binary%20Tree.java)|1 ms|
 |997|[ Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/)|[Java](./solutions/997.%20Find%20the%20Town%20Judge.java)|22 ms|
 |998|[ Maximum Binary Tree II](https://leetcode.com/problems/maximum-binary-tree-ii/)|[Java](./solutions/998.%20Maximum%20Binary%20Tree%20II.java)|0 ms|
